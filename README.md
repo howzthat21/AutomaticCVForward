@@ -16,7 +16,7 @@ Ensure you have the following installed:
 
 ## Setup
 ### 1. Enable App Passwords in Gmail
-To use this script, you need to enable [App Passwords](https://myaccount.google.com/apppasswords) in your Google account and generate a password.
+To use this script, you need to enable [App Passwords](https://myaccount.google.com/apppasswords) in your Google account and generate a password. YOU NEED 2FA ENABLED IN YOUR GOOGLE ACCOUNT FOR THIS.
 
 ### 2. Install Dependencies
 No additional dependencies are required beyond Python's standard library.
@@ -38,15 +38,13 @@ EMAIL_PASSWORD = "your-app-password"
 ## Usage
 Run the script using Python:
 ```sh
-python send_email.py
+python script.py
 ```
 
 ## Security Note
 - **Do not use your actual Gmail password**; always use an App Password.
 - Ensure your email list (`emails.txt`) is kept private.
 
-## License
-This project is open-source and available under the MIT License.
 
 ## Author
 [Your Name]
